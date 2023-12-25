@@ -1,0 +1,20 @@
+.project-card {
+  background-color: #272727;
+  display: flex;
+
+  .pha1 {
+    background-color: gray;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 5px solid #ff652f;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    margin-bottom: 1rem;
+
+    &:nth-child(3) {
+      margin-bottom: 15rem;
+    }
+  }
+}
