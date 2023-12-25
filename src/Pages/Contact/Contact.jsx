@@ -1,40 +1,56 @@
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
+import "./Contact.scss";
+
 const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <h1>Contact Me ...</h1>
 
-      <a href="mailto:wednesday@nevermoreacademy.edu">
-        <div>
-          <MdOutlineMarkEmailRead /> Email{" "}
+      <div className="contact1">
+        <div className="communation">
+          <div className="icon">
+            <div className="icon1">
+              <MdOutlineMarkEmailRead />
+            </div>
+            <h2>Email</h2>
+          </div>
+          <div className="email">
+            <a href="mailto:osmannuri.turhan01@gmail.com">
+              <div>osmannuri.turhan01@gmail.com</div>
+            </a>
+          </div>
         </div>
-        <div>wednesday@nevermoreacademy.edu</div>
-      </a>
 
-      <a href="tel:+40 (571) 360-1234">
-        <div>
-          <MdOutlinePhoneAndroid /> Phone
+        <div className="communation">
+          <div className="icon">
+            <div className="icon1">
+              <MdOutlinePhoneAndroid />
+            </div>
+            <h2>Phone</h2>
+          </div>
+          <div className="phone">
+            <a href="tel:+40 (571) 360-1234">
+              <div>+90 539 637 5071</div>
+            </a>
+          </div>
         </div>
-        <div>+40 (571) 360-1234</div>
-      </a>
 
-      <div>
-        <div>
-          <MdOutlineLocationOn /> Location
+        <div className="communation">
+          <div>
+            <div className="icon">
+              <div className="icon1">
+                <MdOutlineLocationOn />
+              </div>
+              <h2>Location</h2>
+            </div>
+          </div>
+          <div className="adres">
+            <div>Erzurum/Palandöken</div>
+          </div>
         </div>
-        <div>Strada Zamorei 1, Bușteni 105500, Romania</div>
       </div>
-      <iframe
-        className="w-100  "
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10435.918653198158!2d8.988941064642868!3d47.69553019954191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a8afd597b43af%3A0x864acf973193bada!2sCampingplatz%20Horn!5e0!3m2!1str!2str!4v1654182512749!5m2!1str!2str"
-        style={{ border: 0, width: "500px" }}
-        allowFullScreen=""
-        loading="lazy"
-        height="700px"
-        referrerPolicy="no-referrer-when-downgrade"
-      />
     </div>
   );
 };

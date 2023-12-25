@@ -1,15 +1,15 @@
-import "./Navbar.scss"
-import { NavLink } from "react-router-dom"
+import "./Navbar.scss";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
-<NavLink to="/">HOME</NavLink>
-<NavLink to="/about">ABOUT ME</NavLink>
-<NavLink to="/projects">MY PROJECTS</NavLink>
-<NavLink to="/contact">CONTACT</NavLink>
+      <NavLink to="/">HOME</NavLink>
+      <NavLink to="/about">ABOUT</NavLink>
+      <NavLink to="/projects">PROJECTS</NavLink>
+      <NavLink to="/contact">CONTACT</NavLink>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

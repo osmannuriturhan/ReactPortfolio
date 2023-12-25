@@ -1,0 +1,79 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  margin-top: 20vh;
+  text-align: center;
+
+  & .adres div {
+    color: orangered;
+    font-size: 1.5rem;
+  }
+
+  & .communation {
+    color: white;
+
+    & .icon1 {
+      font-size: 1.8rem;
+    }
+
+    & .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+    }
+
+    & a {
+      text-decoration: none;
+    }
+
+    & .phone div {
+      color: orangered;
+      font-size: 1.5rem;
+    }
+
+    & .email div {
+      color: orangered;
+      font-size: 1.5rem;
+    }
+  }
+
+  & .contact1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    margin-top: 1rem;
+    gap: 1rem;
+
+    & h1 {
+      font-size: 2rem;
+      font-weight: 300;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    & p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .contact1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
