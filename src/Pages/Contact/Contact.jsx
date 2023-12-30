@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="adres">
-            <div>Erzurum/Palandöken</div>
+            <div>Turkey</div>
           </div>
         </div>
       </div>
